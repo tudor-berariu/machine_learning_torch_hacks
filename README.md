@@ -14,8 +14,13 @@ The code is written in weekends so there's a slow pace in adding new algorithms.
 
  - a very flexible module that generates synthetic data sets for you
 
-    ds = require('synthetic_data_sets.lua')
-    ds.random_data()
+```
+ds = require('synthetic_data_sets.lua')
+ds.random_data()
 
-    params = {['D'] = 2, ['K'] = 2, ['uniform'] = true}
-    ds.random_data(params)
+args = {['D'] = 2, ['K'] = 2, ['uniform'] = true}
+ds.random_data(args)
+```
+
+ - miscellaneous
+   - a short demonstration of the value iteration algorithm
